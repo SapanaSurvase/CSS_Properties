@@ -108,6 +108,11 @@ Text Properties:
 
 transition property:
 
+
+https://user-images.githubusercontent.com/88648906/130124552-670c6631-4614-4b5c-9f67-915d2173ba76.mp4
+
+
+
 Z-Index property:
 ![z-index](https://user-images.githubusercontent.com/88648906/130122020-389ccd82-efef-40ec-bba3-754b1651aac4.PNG)
 
