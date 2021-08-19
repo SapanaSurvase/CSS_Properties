@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.hero__bg__overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, lightblue, pink);
+}
+
+.hero__card {
+  position: absolute;
+  top: 15%;
+  left:33%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+.properties{
+	position: absolute;
+	top: 40%;
+	left:18%;
+}
+
+.DisBut{
+  background-color: #99003d;
+  border: 1px solid #dc030f;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+}
+

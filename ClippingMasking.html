@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="C:\Users\sapana\Desktop\New folder (2)\CSS_Project\styles.css" />
+    <style>
+	body{
+ width: 100%;
+  height: 100vh;
+background-color: blue;
+  background-image: linear-gradient(to bottom right, lightblue, pink);
+}
+        #img1 {clip-path: circle();}
+        #img2 {clip-path: inset(10px);}
+        #img3 {clip-path: ellipse(50px);}
+        #img3 {clip-path: polygon(0 0, 100% 100%, 0 80%);}
+
+        #img4 {
+            -webkit-mask-image: -webkit-gradient(
+                linear, left bottom, right top,
+                color-stop(0.00, rgba(0,0,0,1)),
+                color-stop(1.00, rgba(0,0,0,0))
+            );
+        }
+    </style>
+    <title>Clipping and Masking Properties</title>
+</head>
+<body>
+<div class="hero__bg__overlay"></div>
+    <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidiCk2e5N6gRcFKTkj4ancM7q4neugI_Elg&usqp=CAU" alt="checkerboard"/>
+    <br><img id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidiCk2e5N6gRcFKTkj4ancM7q4neugI_Elg&usqp=CAU" alt="checkerboard"/>
+    <img id="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidiCk2e5N6gRcFKTkj4ancM7q4neugI_Elg&usqp=CAU" alt="checkerboard"/>
+    <br><img id="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidiCk2e5N6gRcFKTkj4ancM7q4neugI_Elg&usqp=CAU" alt="checkerboard"/>
+    <img id="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidiCk2e5N6gRcFKTkj4ancM7q4neugI_Elg&usqp=CAU" alt="checkerboard"/>
+    
+</body>
+</html>
