@@ -73,3 +73,41 @@ The z-index property specifies the stack order of an element.
 An element with greater stack order is always in front of an element with a lower stack order.
 Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
 Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+
+##Demonstration
+Index page:
+![index](https://user-images.githubusercontent.com/88648906/130120907-ba3115c3-e882-4fbf-8ef8-017d8969f8eb.PNG)
+
+Background Properties:
+![background](https://user-images.githubusercontent.com/88648906/130121095-0433de65-d557-4e90-ba9d-9dcd98a5c4ed.PNG)
+![bg_picture](https://user-images.githubusercontent.com/88648906/130121120-71cf3514-7866-4728-a3d9-7007d60ac9c3.PNG)
+
+Border Properties:
+![border1](https://user-images.githubusercontent.com/88648906/130121188-8dfc36bc-6fb5-4b77-b247-09f67efb1721.PNG)
+![border2](https://user-images.githubusercontent.com/88648906/130121223-bdd8acb1-2b25-4a22-b038-a62ebefb2bc2.PNG)
+
+BOX Properties:
+![box_prop1](https://user-images.githubusercontent.com/88648906/130121365-b70526bf-f01b-46b7-a6c6-c47f8811635b.PNG)
+![box_prop2](https://user-images.githubusercontent.com/88648906/130121397-808c1196-e5f9-4346-b00b-db78f4910616.PNG)
+
+Filter Property:
+![filter](https://user-images.githubusercontent.com/88648906/130121476-797601f0-dc85-4f2c-8e10-623f1aa14e1d.PNG)
+
+Clipping and masking properties:
+![clipping_masking](https://user-images.githubusercontent.com/88648906/130121637-3bfec3cc-3c90-4a38-a60a-635f2372b0a3.PNG)
+
+Positoining Properties:
+![positioning](https://user-images.githubusercontent.com/88648906/130121724-248881e9-6c96-4670-aa21-abc071896b63.PNG)
+
+flex property:
+![flex1](https://user-images.githubusercontent.com/88648906/130121798-a9c9df76-a039-4618-bb6d-7d531f2ccd8b.PNG)
+![flex2](https://user-images.githubusercontent.com/88648906/130121837-eb68730d-1922-4af7-81e8-05eaf350c52d.PNG)
+
+Text Properties:
+![text](https://user-images.githubusercontent.com/88648906/130121872-8a263714-e0eb-4088-9314-8f6d4616af8f.PNG)
+
+transition property:
+
+Z-Index property:
+![z-index](https://user-images.githubusercontent.com/88648906/130122020-389ccd82-efef-40ec-bba3-754b1651aac4.PNG)
+
